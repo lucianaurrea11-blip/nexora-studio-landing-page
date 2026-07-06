@@ -1,0 +1,96 @@
+'use client'
+
+import { motion } from 'framer-motion'
+import { Compass, PenTool, Code2, Rocket } from 'lucide-react'
+import { Reveal } from '@/components/reveal'
+
+const steps = [
+  {
+    n: '01',
+    icon: Compass,
+    title: 'Descubrir',
+    desc: 'Conocemos tu negocio, tus metas y tus clientes para definir una estrategia que genere resultados.',
+  },
+  {
+    n: '02',
+    icon: PenTool,
+    title: 'Diseñar',
+    desc: 'Creamos una interfaz premium y fiel a tu marca, diseñada para generar confianza y convertir visitantes.',
+  },
+  {
+    n: '03',
+    icon: Code2,
+    title: 'Construir',
+    desc: 'Desarrollamos un sitio web rápido, seguro y listo para SEO con las integraciones que necesitas.',
+  },
+  {
+    n: '04',
+    icon: Rocket,
+    title: 'Lanzar',
+    desc: 'Publicamos, optimizamos y te entregamos un sitio listo para crecer — con soporte en el camino.',
+  },
+]
+
+export function Process() {
+  return (
+    <section id="process" className="relative scroll-mt-24 py-20 sm:py-28">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="mx-auto max-w-2xl text-center">
+          <Reveal>
+            <span className="text-sm font-semibold uppercase tracking-wider text-brand">
+              Proceso
+            </span>
+          </Reveal>
+          <Reveal delay={1}>
+            <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
+              Un camino claro de la idea al lanzamiento.
+            </h2>
+          </Reveal>
+          <Reveal delay={2}>
+            <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
+              Cuatro pasos enfocados, sin improvisar — para que siempre sepas qué
+              sigue.
+            </p>
+          </Reveal>
+        </div>
+
+        <div className="relative mt-16">
+          {/* connecting line */}
+          <div className="absolute left-0 right-0 top-7 hidden h-px lg:block">
+            <motion.div
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true, margin: '-100px' }}
+              transition={{ duration: 1.1, ease: 'easeInOut' }}
+              style={{ originX: 0 }}
+              className="h-full w-full bg-gradient-to-r from-brand via-brand/40 to-success/50"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
+            {steps.map((step, i) => (
+              <Reveal key={step.n} delay={i}>
+                <div className="relative">
+                  <div className="flex items-center gap-4 lg:flex-col lg:items-start">
+                    <span className="relative z-10 flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-border bg-card text-brand shadow-[0_8px_20px_-10px_rgba(15,23,42,0.3)]">
+                      <step.icon className="h-6 w-6" />
+                    </span>
+                    <span className="font-mono text-sm font-medium text-muted-foreground lg:mt-6">
+                      {step.n}
+                    </span>
+                  </div>
+                  <h3 className="mt-4 text-lg font-semibold tracking-tight text-foreground">
+                    {step.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                    {step.desc}
+                  </p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
