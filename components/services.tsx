@@ -16,32 +16,32 @@ const services = [
   {
     icon: LayoutTemplate,
     title: 'Diseño web a medida',
-    desc: 'Sitios web hechos a mano y enfocados en conversión, diseñados según tu marca — nunca una plantilla.',
+    desc: 'Sitios hechos desde cero, alineados con tu marca y diseñados para que cada visita se convierta en una oportunidad de negocio.',
   },
   {
     icon: Bot,
     title: 'Integraciones con IA',
-    desc: 'Asistentes de chat inteligentes y automatizaciones que responden a tus clientes y captan prospectos 24/7.',
+    desc: 'Chatbots y automatizaciones que atienden consultas, califican prospectos y trabajan por ti las 24 horas del día.',
   },
   {
     icon: Search,
-    title: 'Optimización SEO',
-    desc: 'SEO técnico y on-page para que tu negocio aparezca cuando las personas buscan en Google.',
+    title: 'Posicionamiento SEO',
+    desc: 'SEO técnico y de contenido para que tu empresa aparezca cuando tus clientes buscan lo que ofreces en Google.',
   },
   {
     icon: MapPin,
-    title: 'Configuración de Google Business',
-    desc: 'Perfil de Google Business optimizado para ganar el mapa local y atraer más visitas.',
+    title: 'Perfil de Google Business',
+    desc: 'Configuramos y optimizamos tu ficha en Google Maps para que te encuentren primero en búsquedas locales.',
   },
   {
     icon: MessageCircle,
-    title: 'Integración con WhatsApp',
-    desc: 'Flujos de WhatsApp con un solo toque para que tus prospectos te contacten al instante y agenden más rápido.',
+    title: 'WhatsApp integrado',
+    desc: 'Botones y flujos directos a WhatsApp para que te escriban al instante, sin formularios ni fricción.',
   },
   {
     icon: Rocket,
-    title: 'Optimización de rendimiento',
-    desc: 'Páginas ultrarrápidas diseñadas para puntajes de 95+ en Lighthouse en todos los dispositivos.',
+    title: 'Velocidad y rendimiento',
+    desc: 'Páginas ultrarrápidas con puntajes de 95+ en Lighthouse, porque un sitio lento también pierde clientes.',
   },
 ]
 
@@ -57,13 +57,13 @@ export function Services() {
           </Reveal>
           <Reveal delay={1}>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-              Todo lo que tu negocio necesita para destacar en internet.
+              Todo lo que tu empresa necesita para crecer en internet.
             </h2>
           </Reveal>
           <Reveal delay={2}>
             <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Un conjunto completo y premium — desde un diseño impecable hasta las
-              integraciones que convierten clics en clientes.
+              Un servicio integral y de alto nivel: diseño impecable, tecnología de punta
+              e integraciones que transforman clics en clientes reales.
             </p>
           </Reveal>
         </div>

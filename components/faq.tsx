@@ -7,28 +7,28 @@ import { Reveal } from '@/components/reveal'
 
 const faqs = [
   {
-    q: 'How much does a website cost?',
-    a: 'Our premium projects start at around $2,000 USD. The final investment depends on scope, integrations and timeline. After a free consultation we send a clear, fixed quote — no surprises.',
+    q: '¿Cuánto cuesta un sitio web?',
+    a: 'Cada proyecto es diferente. El precio depende del alcance, las funcionalidades y las necesidades de tu negocio. Agenda una asesoría gratuita y prepararemos una propuesta personalizada, sin compromiso.',
   },
   {
-    q: 'How long does a project take?',
-    a: 'Most websites launch within 3 to 5 weeks. Larger projects with custom integrations may take longer. We share a detailed timeline before we begin so you always know what to expect.',
+    q: '¿Cuánto tarda un proyecto?',
+    a: 'La mayoría de sitios se entregan entre 3 y 5 semanas. Proyectos más grandes con integraciones personalizadas pueden tomar un poco más. Antes de empezar, compartimos un cronograma detallado para que sepas exactamente qué esperar.',
   },
   {
-    q: 'Do you work with businesses outside my city?',
-    a: 'Yes. We work with clients across all of Colombia and abroad. Our process is fully remote, with clear communication and regular updates at every stage.',
+    q: '¿Trabajan con empresas fuera de mi ciudad?',
+    a: 'Sí. Trabajamos con clientes en todo Colombia y en el exterior. Nuestro proceso es 100 % remoto, con comunicación clara y actualizaciones en cada etapa del proyecto.',
   },
   {
-    q: 'Will my website show up on Google?',
-    a: 'Absolutely. Every site is built SEO-ready with optimized structure, speed and content. We also set up your Google Business Profile to help you win local searches.',
+    q: '¿Mi sitio aparecerá en Google?',
+    a: 'Por supuesto. Cada sitio se construye con SEO desde el primer día: estructura optimizada, velocidad y contenido pensado para posicionar. También configuramos tu perfil de Google Business para destacar en búsquedas locales.',
   },
   {
-    q: 'Can you manage and update the site after launch?',
-    a: 'Yes. We offer ongoing care plans for updates, hosting, performance monitoring and content changes — so your site keeps performing while you focus on your business.',
+    q: '¿Pueden administrar el sitio después del lanzamiento?',
+    a: 'Sí. Ofrecemos planes de mantenimiento con actualizaciones, hosting, monitoreo de rendimiento y cambios de contenido — para que tu sitio siga funcionando mientras tú te enfocas en tu negocio.',
   },
   {
-    q: 'What do I need to get started?',
-    a: 'Just your goals. Book a free consultation and we will guide you through everything — branding, content and the right strategy for your business.',
+    q: '¿Qué necesito para empezar?',
+    a: 'Solo tus objetivos. Escríbenos y te guiamos en todo: marca, contenido y la estrategia digital adecuada para tu empresa.',
   },
 ]
 
@@ -89,12 +89,12 @@ export function Faq() {
         <div className="text-center">
           <Reveal>
             <span className="text-sm font-semibold uppercase tracking-wider text-brand">
-              FAQ
+              Preguntas frecuentes
             </span>
           </Reveal>
           <Reveal delay={1}>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-              Questions, answered.
+              Inversión, plazos y alcance, sin rodeos.
             </h2>
           </Reveal>
         </div>

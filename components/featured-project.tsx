@@ -6,9 +6,9 @@ import { ArrowUpRight, TrendingUp, Clock, Phone } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 
 const results = [
-  { icon: TrendingUp, value: '+182%', label: 'Más solicitudes de cita' },
-  { icon: Clock, value: '0.8s', label: 'Tiempo de carga promedio' },
-  { icon: Phone, value: '3.4×', label: 'Más clientes por WhatsApp' },
+  { icon: TrendingUp, value: '+182%', label: 'Más citas agendadas' },
+  { icon: Clock, value: '0,8 s', label: 'Tiempo de carga' },
+  { icon: Phone, value: '3,4×', label: 'Más contactos por WhatsApp' },
 ]
 
 export function FeaturedProject() {
@@ -24,22 +24,21 @@ export function FeaturedProject() {
           <div>
             <Reveal>
               <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-medium text-white/80">
-                Proyecto destacado · Salud
+                Caso de éxito · Sector salud
               </span>
             </Reveal>
             <Reveal delay={1}>
               <h2 className="mt-5 text-balance text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl">
-                Clínica Sonrisa — una clínica dental de lujo, reinventada.
+                Clínica Sonrisa — de recomendaciones de boca en boca a agenda llena.
               </h2>
             </Reveal>
             <Reveal delay={2}>
               <p className="mt-4 text-pretty text-base leading-relaxed text-white/70 sm:text-lg">
-                La clínica dependía del voz a voz y de una página anticuada que
-                escondía la opción de reservar. Reconstruimos toda la experiencia
-                con un único objetivo: hacer que agendar fuera muy fácil. Un diseño
-                refinado, tiempos de carga instantáneos y reservas por WhatsApp con
-                un solo toque convirtieron visitantes casuales en pacientes
-                agendados.
+                Esta clínica dental en Medellín dependía del voz a voz y de una página
+                anticuada que dificultaba agendar citas. Rediseñamos toda la experiencia
+                digital con un solo objetivo: que reservar fuera fácil e inmediato.
+                Diseño refinado, carga instantánea y reservas por WhatsApp convirtieron
+                visitantes ocasionales en pacientes confirmados.
               </p>
             </Reveal>
 
@@ -64,7 +63,7 @@ export function FeaturedProject() {
                 href="#contact"
                 className="group mt-8 inline-flex items-center gap-2 rounded-xl bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-all hover:-translate-y-0.5"
               >
-                Empieza tu transformación
+                Quiero resultados como estos
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </a>
             </Reveal>

@@ -26,7 +26,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3.5 py-1.5 text-xs font-medium text-muted-foreground"
           >
             <span className="flex h-1.5 w-1.5 rounded-full bg-success" />
-            Estudio de diseño web premium · Colombia
+            Diseño web premium · Hecho en Colombia
           </motion.div>
 
           <motion.h1
@@ -35,8 +35,8 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.05, ease }}
             className="mt-6 text-balance text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl lg:text-6xl"
           >
-            Sitios web que convierten{' '}
-            <span className="text-gradient">visitantes en clientes.</span>
+            Tu negocio merece un sitio que{' '}
+            <span className="text-gradient">convierta visitas en ventas.</span>
           </motion.h1>
 
           <motion.p
@@ -45,8 +45,8 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.12, ease }}
             className="mx-auto mt-6 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg lg:mx-0"
           >
-            Creamos sitios web premium para negocios colombianos que quieren crecer,
-            ganar credibilidad y generar más clientes.
+            Diseñamos sitios web rápidos y elegantes para pymes colombianas que quieren
+            proyectar confianza, posicionarse en Google y recibir más consultas.
           </motion.p>
 
           <motion.div
@@ -59,7 +59,7 @@ export function Hero() {
               href="#contact"
               className="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-[0_12px_30px_-10px_rgba(15,23,42,0.55)] transition-all hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-10px_rgba(15,23,42,0.6)] sm:w-auto"
             >
-              Solicita tu asesoría gratis
+              Asesoría gratuita
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
@@ -67,7 +67,7 @@ export function Hero() {
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-border bg-background px-6 py-3.5 text-sm font-semibold text-foreground transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:bg-secondary sm:w-auto"
             >
               <Play className="h-4 w-4 text-brand" />
-              Ver proyectos
+              Conoce nuestro trabajo
             </a>
           </motion.div>
 
@@ -99,7 +99,7 @@ export function Hero() {
                   <Star key={i} className="h-3.5 w-3.5 fill-current" />
                 ))}
               </div>
-              <p className="text-xs text-muted-foreground">La confianza de más de 40 negocios locales</p>
+              <p className="text-xs text-muted-foreground">Más de 40 pymes en Colombia</p>
             </div>
           </motion.div>
         </div>
@@ -143,8 +143,8 @@ export function Hero() {
               <TrendingUp className="h-5 w-5" />
             </span>
             <div>
-              <p className="text-sm font-semibold text-foreground">+182% clientes</p>
-              <p className="text-xs text-muted-foreground">en 90 días</p>
+              <p className="text-sm font-semibold text-foreground">Reserva en 1 clic</p>
+              <p className="text-xs text-muted-foreground">WhatsApp integrado</p>
             </div>
           </motion.div>
 
@@ -157,8 +157,8 @@ export function Hero() {
               <Zap className="h-5 w-5" />
             </span>
             <div>
-              <p className="text-sm font-semibold text-foreground">0.9s de carga</p>
-              <p className="text-xs text-muted-foreground">99 de rendimiento</p>
+              <p className="text-sm font-semibold text-foreground">Carga en 0,9 s</p>
+              <p className="text-xs text-muted-foreground">Puntaje 99/100</p>
             </div>
           </motion.div>
         </motion.div>

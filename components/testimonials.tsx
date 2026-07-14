@@ -8,24 +8,24 @@ import { Reveal } from '@/components/reveal'
 const testimonials = [
   {
     name: 'Carolina Restrepo',
-    role: 'Propietaria · Clínica Sonrisa, Medellín',
+    role: 'Directora · Clínica Sonrisa, Medellín',
     photo: '/testimonials/carolina.png',
     quote:
-      'Nuestro nuevo sitio web por fin se ve como la clínica premium que somos. Las reservas casi se triplicaron en los primeros tres meses — se pagó solo casi de inmediato.',
+      'Por fin tenemos un sitio que refleja la calidad de nuestra clínica. Las citas casi se triplicaron en tres meses. La inversión se pagó sola.',
   },
   {
     name: 'Andrés Gómez',
-    role: 'Director · Gómez & Asociados, Bogotá',
+    role: 'Socio director · Gómez & Asociados, Bogotá',
     photo: '/testimonials/andres.png',
     quote:
-      'Nexora entendió nuestra firma y construyó algo que genera confianza desde la primera impresión. Ahora recibimos consultas calificadas a través del sitio cada semana.',
+      'Nexora entendió nuestra firma desde el primer día. El sitio transmite seriedad y profesionalismo. Ahora recibimos consultas calificadas cada semana sin depender solo de referidos.',
   },
   {
     name: 'Valentina Ríos',
     role: 'Fundadora · Studio Pilates, Cali',
     photo: '/testimonials/valentina.png',
     quote:
-      'Rápido, hermoso y muy fácil de administrar. Solo la integración con WhatsApp cambió la forma en que conseguimos clientes. Sin duda la mejor inversión del año.',
+      'Rápido, elegante y fácil de manejar. Con la integración de WhatsApp cambió por completo la forma en que captamos clientes nuevos. La mejor inversión que hicimos este año.',
   },
 ]
 
@@ -41,7 +41,7 @@ export function Testimonials() {
           </Reveal>
           <Reveal delay={1}>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-              La elección de dueños de negocio ambiciosos.
+              Lo que dicen quienes ya dieron el paso.
             </h2>
           </Reveal>
         </div>

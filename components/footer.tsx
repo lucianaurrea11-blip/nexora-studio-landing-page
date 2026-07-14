@@ -2,11 +2,11 @@ import { Mail, MessageCircle } from 'lucide-react'
 import { Logo } from '@/components/logo'
 
 const nav = [
-  { label: 'Services', href: '#services' },
-  { label: 'Process', href: '#process' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Servicios', href: '#services' },
+  { label: 'Proceso', href: '#process' },
+  { label: 'Proyectos', href: '#projects' },
+  { label: 'Preguntas', href: '#faq' },
+  { label: 'Contacto', href: '#contact' },
 ]
 
 function InstagramIcon({ className }: { className?: string }) {
@@ -37,45 +37,27 @@ function FacebookIcon({ className }: { className?: string }) {
   )
 }
 
-const socials = [
-  { label: 'Instagram', href: '#', icon: InstagramIcon },
-  { label: 'LinkedIn', href: '#', icon: LinkedinIcon },
-  { label: 'Facebook', href: '#', icon: FacebookIcon },
-]
-
 export function Footer() {
   return (
     <footer className="border-t border-border bg-background">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-sm">
-            <a href="#top" className="flex items-center gap-2.5" aria-label="Nexora Studio home">
+            <a href="#top" className="flex items-center gap-2.5" aria-label="Inicio Nexora Studio">
               <Logo className="h-8 w-8" />
               <span className="text-[15px] font-semibold tracking-tight text-foreground">
                 Nexora <span className="text-muted-foreground">Studio</span>
               </span>
             </a>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Premium websites for Colombian businesses that want more
-              credibility, better visibility and more customers.
+              Diseñamos y desarrollamos sitios web premium para empresas colombianas
+              que buscan más credibilidad, mejor visibilidad y más clientes.
             </p>
-            <div className="mt-5 flex items-center gap-2">
-              {socials.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  aria-label={s.label}
-                  className="flex h-10 w-10 items-center justify-center rounded-xl border border-border text-muted-foreground transition-colors hover:border-primary/30 hover:bg-secondary hover:text-foreground"
-                >
-                  <s.icon className="h-5 w-5" />
-                </a>
-              ))}
-            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-2">
             <div>
-              <h3 className="text-sm font-semibold text-foreground">Navigate</h3>
+              <h3 className="text-sm font-semibold text-foreground">Navegación</h3>
               <ul className="mt-4 flex flex-col gap-3">
                 {nav.map((item) => (
                   <li key={item.href}>
@@ -90,11 +72,11 @@ export function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="text-sm font-semibold text-foreground">Get in touch</h3>
+              <h3 className="text-sm font-semibold text-foreground">Contáctanos</h3>
               <ul className="mt-4 flex flex-col gap-3">
                 <li>
                   <a
-                    href="https://wa.me/573000000000"
+                    href="https://wa.me/573214575060"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
@@ -104,13 +86,13 @@ export function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a
+                  {/*<a
                     href="mailto:hello@nexorastudio.co"
                     className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
                     <Mail className="h-4 w-4 text-brand" />
                     hello@nexorastudio.co
-                  </a>
+                  </a> */}
                 </li>
               </ul>
             </div>
@@ -119,10 +101,10 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 sm:flex-row">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Nexora Studio. All rights reserved.
+            © {new Date().getFullYear()} Nexora Studio. Todos los derechos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
-            Crafted in Colombia · Built to convert.
+            Hecho en Colombia · Diseñado para convertir.
           </p>
         </div>
       </div>

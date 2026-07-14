@@ -63,7 +63,7 @@ export function Navbar() {
             href="#contact"
             className="group hidden items-center gap-1.5 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground shadow-[0_8px_24px_-8px_rgba(15,23,42,0.5)] transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-8px_rgba(15,23,42,0.55)] sm:flex"
           >
-            Agenda una asesoría gratis
+            Asesoría gratuita
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
           <button
@@ -105,7 +105,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="mt-2 flex items-center justify-center gap-1.5 rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground"
             >
-              Agenda una asesoría gratis
+              Asesoría gratuita
               <ArrowUpRight className="h-4 w-4" />
             </a>
           </motion.div>

@@ -26,7 +26,7 @@ export function FloatingCta() {
           className="fixed inset-x-4 bottom-4 z-40 flex items-center justify-center gap-2 rounded-2xl bg-primary px-6 py-4 text-sm font-semibold text-primary-foreground shadow-[0_16px_40px_-12px_rgba(15,23,42,0.6)] lg:hidden"
         >
           <MessageCircle className="h-5 w-5 text-success" />
-          Schedule a Free Consultation
+          Asesoría gratuita
         </motion.a>
       )}
     </AnimatePresence>

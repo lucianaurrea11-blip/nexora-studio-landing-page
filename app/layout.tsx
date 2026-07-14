@@ -13,18 +13,18 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 })
 
-const siteUrl = 'https://nexorastudio.co'
+const siteUrl = 'https://nexora-studio-landing-page.vercel.app'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Nexora Studio — Premium Websites for Colombian Businesses',
+    default: 'Nexora Studio — Sitios web premium para empresas en Colombia',
     template: '%s | Nexora Studio',
   },
   description:
-    'Nexora Studio designs and builds premium, high-converting websites for Colombian businesses that want more credibility, better Google visibility and more customers.',
+    'Nexora Studio diseña y desarrolla sitios web premium y de alta conversión para pymes colombianas que buscan más credibilidad, mejor posicionamiento en Google y más clientes.',
   keywords: [
-    'web design Colombia',
+    'diseño web Colombia',
     'diseño web premium',
     'agencia de diseño web',
     'páginas web para empresas',
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
   creator: 'Nexora Studio',
   openGraph: {
     type: 'website',
-    locale: 'en_US',
+    locale: 'es_CO',
     url: siteUrl,
     siteName: 'Nexora Studio',
-    title: 'Nexora Studio — Premium Websites for Colombian Businesses',
+    title: 'Nexora Studio — Sitios web premium para empresas en Colombia',
     description:
-      'Premium websites that turn visitors into customers. Built for Colombian businesses that want to grow.',
+      'Sitios web que convierten visitas en clientes. Diseñados para empresas colombianas que quieren crecer.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nexora Studio — Premium Websites for Colombian Businesses',
+    title: 'Nexora Studio — Sitios web premium para empresas en Colombia',
     description:
-      'Premium websites that turn visitors into customers. Built for Colombian businesses that want to grow.',
+      'Sitios web que convierten visitas en clientes. Diseñados para empresas colombianas que quieren crecer.',
   },
   generator: 'v0.app',
   icons: {
@@ -73,7 +73,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       className={`light ${inter.variable} ${geistMono.variable}`}
     >
       <body className="bg-background font-sans antialiased">

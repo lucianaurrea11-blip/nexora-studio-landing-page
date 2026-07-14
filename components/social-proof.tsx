@@ -14,10 +14,10 @@ type Stat = {
 }
 
 const stats: Stat[] = [
-  { icon: Smartphone, value: 95, suffix: '%', label: 'Optimizado para móvil', sub: 'Impecable en cada dispositivo' },
-  { icon: Gauge, value: 99, suffix: '', label: 'Puntaje de rendimiento', sub: 'Carga en menos de un segundo' },
-  { icon: Sparkles, value: 100, suffix: '%', label: 'Diseño moderno', sub: 'A medida, nunca plantillas' },
-  { icon: Search, value: 100, suffix: '%', label: 'Listo para SEO', sub: 'Hecho para posicionar en Google' },
+  { icon: Smartphone, value: 95, suffix: '%', label: 'Experiencia móvil', sub: 'Perfecto en celular, tablet y desktop' },
+  { icon: Gauge, value: 99, suffix: '', label: 'Rendimiento web', sub: 'Tu sitio carga antes de que el visitante piense en irse' },
+  { icon: Sparkles, value: 100, suffix: '%', label: 'Diseño a medida', sub: 'Cero plantillas genéricas, 100 % tu marca' },
+  { icon: Search, value: 100, suffix: '%', label: 'Preparado para SEO', sub: 'Estructura optimizada para aparecer en Google' },
 ]
 
 function Counter({ value, suffix }: { value: number; suffix: string }) {

@@ -8,32 +8,32 @@ const benefits = [
   {
     icon: ShieldCheck,
     title: 'Más credibilidad',
-    desc: 'Un sitio premium transmite confianza antes de leer una sola palabra — para que tus clientes te elijan con seguridad.',
+    desc: 'Un sitio profesional genera confianza al instante. Tus clientes te perciben como la opción seria antes de contactarte.',
   },
   {
     icon: Users,
-    title: 'Más consultas de clientes',
-    desc: 'Llamados a la acción claros y flujos de contacto sin fricción convierten visitantes pasivos en conversaciones reales.',
+    title: 'Más consultas y ventas',
+    desc: 'Llamados a la acción claros, formularios simples y WhatsApp a un clic: convertimos tráfico en conversaciones que cierran negocios.',
   },
   {
     icon: LineChart,
-    title: 'Mejor visibilidad en Google',
-    desc: 'El SEO y la velocidad integrados ayudan a tu negocio a subir en los resultados y ser encontrado por clientes locales.',
+    title: 'Mejor posición en Google',
+    desc: 'SEO y velocidad integrados desde el día uno para que tu empresa sea visible cuando tus clientes te buscan.',
   },
   {
     icon: Crown,
-    title: 'Presencia online premium',
-    desc: 'Destácate de la competencia con una experiencia de marca a la altura de tus precios.',
+    title: 'Imagen premium',
+    desc: 'Destácate frente a la competencia con una presencia digital que refleja la calidad de lo que ofreces.',
   },
 ]
 
 const comparison = [
-  { label: 'Diseño enfocado en conversión', nexora: true, others: false },
-  { label: 'Carga en menos de un segundo', nexora: true, others: false },
-  { label: 'SEO desde el primer día', nexora: true, others: false },
-  { label: 'Integraciones con WhatsApp e IA', nexora: true, others: false },
-  { label: 'Apariencia de plantilla genérica', nexora: false, others: true },
-  { label: 'Páginas lentas y pesadas', nexora: false, others: true },
+  { label: 'Diseño orientado a conversión', nexora: true, others: false },
+  { label: 'Carga en menos de 1 segundo', nexora: true, others: false },
+  { label: 'SEO incluido desde el inicio', nexora: true, others: false },
+  { label: 'WhatsApp e IA integrados', nexora: true, others: false },
+  { label: 'Plantillas genéricas y repetidas', nexora: false, others: true },
+  { label: 'Sitios lentos que espantan visitas', nexora: false, others: true },
 ]
 
 export function WhyChoose() {
@@ -49,13 +49,13 @@ export function WhyChoose() {
             </Reveal>
             <Reveal delay={1}>
               <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-                No se trata de nosotros. Se trata de lo que tú ganas.
+                No vendemos páginas web. Vendemos resultados para tu negocio.
               </h2>
             </Reveal>
             <Reveal delay={2}>
               <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Cada decisión que tomamos se mide por una sola cosa: los resultados
-                que genera para tu negocio.
+                Cada decisión de diseño, cada línea de código y cada integración
+                tiene un solo propósito: hacer crecer tu empresa.
               </p>
             </Reveal>
 
@@ -84,7 +84,7 @@ export function WhyChoose() {
               className="sticky top-28 overflow-hidden rounded-3xl border border-border bg-card p-6 shadow-[0_30px_60px_-30px_rgba(15,23,42,0.3)] sm:p-8"
             >
               <div className="grid grid-cols-[1fr_auto_auto] items-center gap-4 border-b border-border pb-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                <span>Lo que obtienes</span>
+                <span>Comparativa</span>
                 <span className="w-16 text-center text-primary">Nexora</span>
                 <span className="w-16 text-center">Otros</span>
               </div>

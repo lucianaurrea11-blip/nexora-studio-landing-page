@@ -8,26 +8,26 @@ const steps = [
   {
     n: '01',
     icon: Compass,
-    title: 'Descubrir',
-    desc: 'Conocemos tu negocio, tus metas y tus clientes para definir una estrategia que genere resultados.',
+    title: 'Descubrimiento',
+    desc: 'Conocemos tu negocio, tu mercado y tus objetivos para definir una estrategia digital con resultados medibles.',
   },
   {
     n: '02',
     icon: PenTool,
-    title: 'Diseñar',
-    desc: 'Creamos una interfaz premium y fiel a tu marca, diseñada para generar confianza y convertir visitantes.',
+    title: 'Diseño',
+    desc: 'Creamos una interfaz elegante y fiel a tu marca, pensada para generar confianza y guiar al visitante hacia la acción.',
   },
   {
     n: '03',
     icon: Code2,
-    title: 'Construir',
-    desc: 'Desarrollamos un sitio web rápido, seguro y listo para SEO con las integraciones que necesitas.',
+    title: 'Desarrollo',
+    desc: 'Construimos un sitio rápido, seguro y optimizado para SEO, con las integraciones que tu operación necesita.',
   },
   {
     n: '04',
     icon: Rocket,
-    title: 'Lanzar',
-    desc: 'Publicamos, optimizamos y te entregamos un sitio listo para crecer — con soporte en el camino.',
+    title: 'Lanzamiento',
+    desc: 'Publicamos, probamos y te entregamos un sitio listo para generar resultados, con acompañamiento post-lanzamiento.',
   },
 ]
 
@@ -43,13 +43,13 @@ export function Process() {
           </Reveal>
           <Reveal delay={1}>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-              Un camino claro de la idea al lanzamiento.
+              De la idea al lanzamiento, con un proceso claro.
             </h2>
           </Reveal>
           <Reveal delay={2}>
             <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Cuatro pasos enfocados, sin improvisar — para que siempre sepas qué
-              sigue.
+              Cuatro etapas definidas, comunicación constante y cero sorpresas.
+              Siempre sabrás en qué va tu proyecto.
             </p>
           </Reveal>
         </div>
