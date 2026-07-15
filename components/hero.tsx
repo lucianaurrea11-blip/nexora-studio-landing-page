@@ -56,7 +56,9 @@ export function Hero() {
             className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:items-start lg:justify-start"
           >
             <a
-              href="#contact"
+             href="https://tally.so/r/LZNOXJ"
+             target="_blank"
+             rel="noopener noreferrer"  
               className="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-[0_12px_30px_-10px_rgba(15,23,42,0.55)] transition-all hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-10px_rgba(15,23,42,0.6)] sm:w-auto"
             >
               Asesoría gratuita
